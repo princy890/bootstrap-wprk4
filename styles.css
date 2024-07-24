@@ -1,0 +1,46 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.parallax {
+    background: url('image2.png') no-repeat center center fixed;
+    background-size: 500px;
+    height: 50vh;
+    /* display: cover; */
+    justify-content: center;
+    align-items: center;
+    color: rgb(13, 200, 233);
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 3em;
+    margin: 1px;
+}
+
+.content p {
+    font-size: 1.5em;
+}
+
+.intro {
+    padding: 50px 0;
+    background: url('image3.png') no-repeat center center fixed;
+    background-color: #0ce0b2;
+}
+
+.info-box {
+    background-color: #b25d5d;
+    color: rgb(59, 241, 13);
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.info-box i {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
